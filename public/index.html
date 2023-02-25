@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat socket.io</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js"></script>
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/wassup.png" alt="">
+        </div>
+        <form id="chat">
+            <input type="text" name="username" placeholder="Digite seu usúario">
+            <div class="message__area"></div>
+            <input type="text" name="message" placeholder="Digite sua mensagem" placeholder="Digite sua mensagem...">
+            <button type="submit" style="display: none;">Enviar</button>
+        </form>
+    </section>
+   
+
+    <script src="/client.js"></script>
+    
+</body>
+</html>
