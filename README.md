@@ -21,7 +21,3 @@ $ npm run start
 
 ```
 
-## creator
-
-- Author - `Tiago ALves de Souza`;
-
